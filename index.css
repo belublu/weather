@@ -30,9 +30,9 @@ body {
 
 .info {
     margin-left: 5px;
-}
+} */
 
-
+/* 
 .loader,
 .loader:before,
 .loader:after {
@@ -115,6 +115,32 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.blockLocation{
+    display: flex;
+    flex-direction: column;
+}
+
+.informationContainer h2{
+    font-size: 70px;
+    color: white;
+    line-height: 40px;
+}
+
+.informationContainer p{
+    margin: 5px 0 5px;
+    font-size: 20px;
+}
+
+#location{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.iconGeolocalizado{
+    height: 150px;
+}
+
 .weatherContent{
     box-shadow: rgba(50,50,93,0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     max-width: 500px;
@@ -147,13 +173,16 @@ body{
 .result h2{
     font-size: 70px;
     color: white;
-    line-height: 70px;
+    line-height: 0px;
 }
 
 .result h5{
     color: white;
-    font-size: 30px;
+    font-size: 40px;
+    margin-top: 2px;
 }
+
+
 
 form{
     display: flex;
@@ -198,5 +227,6 @@ form input[type="submit"]:hover{
 }
 
 .icono{
-    height: 200px;
+    height: 150px;
+    margin-top: 5px;
 }
